@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pac-Script</title>
+</head>
+<body>
+    <div class="tela__inicial">
+        <img class="titulo" src="imagens/pac-script-14-10-2024.png" alt="">
+        <button class="start" onclick="jogar()">JOGAR</button>
+    </div>
+    
+    <div class="jogo__base">
+        <canvas id="tela" width="570" height="630"></canvas>
+        <div class="rodape">
+            <p class="placar">0</p>
+            <p class="vidas"> ♥ ♥ ♥</p>
+    </div>
+    </div>
+
+    <div class="telaVitoria">
+        <img class="vitoria" src="imagens/vitoria.png" alt="">
+        <button class="restart" onclick="restartFunc()">Restart</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
